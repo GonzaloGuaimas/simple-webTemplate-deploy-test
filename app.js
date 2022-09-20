@@ -14,6 +14,6 @@ app.listen(port, function() {
 
 
 app.get('/', (req, res) => {
-  res.render('index.ejs')
-  
+  //res.render('index.ejs')
+  req.setEncoding("hola mundo")
 })
