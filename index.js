@@ -14,6 +14,5 @@ app.listen(port, function() {
 
 
 app.get('/', (req, res) => {
-  //res.render('index.ejs')
-  req.send("hola mundo")
+  res.render('index.ejs')
 })
